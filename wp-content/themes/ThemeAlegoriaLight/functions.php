@@ -20,6 +20,7 @@ function theme_enqueue_scripts()
 
     wp_register_style('Font_Awesome', get_template_directory_uri() . '/assets/css/font-awesome.min.css', []);
     wp_register_style('bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css', []);
+    wp_register_style('animate', get_template_directory_uri() . '/assets/css/animate.min.css', [], false, true);
     wp_register_script('bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js', ['popper', 'jquery'], false, true);
     wp_register_script('popper', get_template_directory_uri() . '/assets/js/popper.min.js', [], false, true);
     wp_deregister_script('jquery');
@@ -27,6 +28,7 @@ function theme_enqueue_scripts()
     
     wp_enqueue_style('Font_Awesome');
     wp_enqueue_style('bootstrap');
+    wp_enqueue_style('animate');
     wp_enqueue_style('Style', get_template_directory_uri() . '/assets/css/style.css');
     wp_enqueue_script('bootstrap');
 
@@ -40,8 +42,8 @@ add_action('wp_enqueue_scripts', 'theme_enqueue_scripts');
  *  Register menus
  */
 register_nav_menus(array(
-    'primary'   => __('Primary Menu', 'alegoriatheme'),
-    'secondary' => __('Secondary Menu', 'alegoriatheme')
+    'primary'   => __('Primary Menu', 'alegoriathemelight'),
+    'secondary' => __('Secondary Menu', 'alegoriathemelight')
 ));
 
 /**
@@ -90,18 +92,34 @@ function theme_prefix_setup()
         )
 
     );
-
-    add_theme_support(
-        'custom-logo2',
-        array(
-            'height'      => 175,
-            'width'       => '400',
-            'flex-width' => true,
-            'header-text' => array('site-title', 'site-description')
-        )
-
-    );
 }
+
+/**
+ * Add Second Logo
+ */
+function alegoria_customize_register( $wp_customize ) {
+    //All our sections, settings, and controls will be added here
+
+    $wp_customize->add_section( 'my_site_logo' , array(
+        'title'      => __( 'Le deuxieme logo', 'alegoria' ),
+        'priority'   => 30,
+    ) );
+
+    $wp_customize->add_control(
+        new WP_Customize_Image_Control(
+            $wp_customize,
+            'logo',
+            array(
+               'label'      => __( 'Upload a logo', 'alegoria' ),
+               'section'    => 'my_site_logo',
+               'settings'   => 'my_site_logo_id' 
+            )
+        )
+    );
+
+}
+add_action( 'customize_register', 'alegoria_customize_register' );
+
 add_action('after_setup_theme', 'theme_prefix_setup');
 /**
  * Adding post thumbnails

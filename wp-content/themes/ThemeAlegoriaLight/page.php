@@ -1,6 +1,6 @@
 <?php /* Template Name: default Page */
 get_header();
-get_template_part('template-parts/subheader/subheader');
+// get_template_part('template-parts/subheader/subheader');
 ?>
 <div class="container pt-3 pb-3">
     <div class="row">

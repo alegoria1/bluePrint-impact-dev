@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar z-depth-0">
+<nav class="navbar navbar-expand-lg scrolling-navbar z-depth-0">
     <div class="container-fluid d-flex justify-content-center flex-column">
         <div class="row">
             <div class="col-6 col-md-12">

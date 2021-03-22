@@ -19,7 +19,7 @@
             <!--Grid row-->
             <div class="row wow fadeIn">
                 <!--Grid column-->
-                <div class="col-md-12 mb-4 white-text text-center wow fadeIn">
+                <div class="col-md-12 mb-4text-center wow fadeIn">
                     <?php
                     get_template_part('template-parts/navigation/nav-1');
                     ?>
