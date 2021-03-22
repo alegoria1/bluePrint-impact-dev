@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Open+Sans:wght@300&display=swap');
+
+/* ---------------------------------------------------------Necessary
+-----------------------------------------------------------------------------*/
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin-top: 65px;
+}
+
+
+/*Typographies*/
+
+body,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+.font-title {
+    /* font-family: 'Adamina',Georgia,"Times New Roman",serif; */
+    font-family: 'Allura', cursive;
+    font-weight: 700;
+    line-height: 1!important;
+}
+
+
+/* h2::before {
+    content: "~";
+    padding-right: 10px;
+}
+
+h2::after {
+    content: "~";
+    padding-left: 10px;
+} */
+
+body p {
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+
+/*colors*/
+
+.bg-primary {
+    background: #ff6400!important;
+}
+
+.bg-secondary {
+    background: #FF087C!important;
+}
+
+.text-primary {
+    color: #ff6400!important;
+}
+
+.text-secondary {
+    color: #FF087C!important;
+}
+
+.border-primary {
+    border-color: #ff6400!important;
+}
+
+.border-secondary {
+    border-color: #FF087C!important;
+}
+
+.border-right-3 {
+    border-right-width: 5px!important;
+}
+
+.btn-primary {
+    background: #ff6400!important;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(194deg, #ff82bc 0%, #ff0a7d 100%)!important;
+}
+
+.btn-secondary {
+    background: #FF087C!important;
+}
+
+.pills-primary .nav-link.active {
+    background: #ff6400!important;
+}
+
+.pills-primary .nav-link.active:hover {
+    background: #FF087C!important;
+}
+
+.md-pills .nav-link:hover {
+    background: #ff6400!important;
+    color: #fff;
+}
+
+
+/*box shadow*/
+
+.text-shadow-white {
+    text-shadow: 0.06em 0.06em 0em rgba(255, 255, 255, 0.4);
+}
+
+.text-shadow-black {
+    text-shadow: 0.06em 0.06em 0em rgba(0, 0, 0, 0.568);
+}
+
+
+/* .dropdown:hover .dropdown-menu {display: block;} */
+
+.position-top {
+    position: relative;
+    top: 1%;
+}
+
+.position-middle {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.position-bottom {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+}
+
+
+/*----------------------------------------------------- Spacing
+--------------------------------------------------------------------------*/
+
+.fixed-sn main {
+    padding-top: 5.5rem;
+    /* padding-bottom: 5.5rem; */
+}
+
+.fixed-sn main,
+.fixed-sn .page-footer .container-fluid {
+    margin: 0;
+}
+
+section {
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+
+/*
+@media only screen and (min-width: 1201px){
+  .side-nav.fixed {
+    position: fixed;
+    left: 0;
+    -webkit-transform: translateX(0);
+    transform: translateX(0)
+  } 
+  .fixed-sn .double-nav, .fixed-sn main, .fixed-sn footer{
+    padding-left:240px;
+  }
+} */
+
+
+/*----------------------------------------------------- NavBar
+--------------------------------------------------------------------------*/
+
+.navbar-brand {
+    display: block;
+}
+
+ul.navbar-nav a:hover {
+    color: #ff6400!important;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.side-nav a {
+    height: auto;
+}
+
+.navbar-brand img {
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.side-nav.wide.slim .sn-ad-avatar-wrapper a span {
+    display: none;
+}
+
+
+/*.side-nav ul li {
+    padding: 0 0 10px 0;
+}*/
+
+.side-nav ul li a {
+    padding: 5px 0;
+}
+
+
+/*.side-nav ul li .collapsible a::after{
+	content:"";
+   display:block;
+	position:absolute;
+	height:2px;
+	width:5%;
+	background: #000;
+	bottom:0;
+	border: 2px solid #000;
+}*/
+
+.side-nav .collapsible a {
+    color: #000;
+    height: auto;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.2em;
+    font-family: 'Adamina', Georgia, "Times New Roman", serif;
+}
+
+.side-nav.wide .collapsible a {
+    padding-left: 15px;
+}
+
+.side-nav .collapsible a:hover {
+    color: #ff6400;
+}
+
+.side-nav .collapsible-body a {
+    background-color: transparent;
+}
+
+.side-nav .collapsible a.btn {
+    height: auto!important;
+    color: #fff;
+    padding: .1rem 1.1rem;
+    line-height: 1.3em;
+}
+
+.side-nav .collapsible a.btn .font-small {
+    font-size: 0.7rem;
+}
+
+.side-nav .collapsible a:hover.btn {
+    height: auto!important;
+    color: #fff;
+}
+
+
+/*---Mobile----/
+
+
+/*----------------------------------------------------- Carousel
+--------------------------------------------------------------------------*/
+
+.carousel,
+.carousel-item,
+.carousel-item.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+#carousel-home .view {
+    height: 100vh;
+}
+
+#carousel-home .carousel-control-prev {
+    left: 240px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #carousel-home .carousel-control-prev {
+        left: 0;
+    }
+}
+
+#carousel-home .carousel-item:nth-child(1) {
+    background-image: url("../content/slider-home/scenographie-originale.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#carousel-home .carousel-item:nth-child(2) {
+    background-image: url("../content/slider-home/approvisionnement-local.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#carousel-home .carousel-item:nth-child(3) {
+    background-image: url("../content/slider-home/developpement-durable.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#carousel-home .carousel-item:nth-child(4) {
+    background-image: url("../content/slider-home/prestations-sur-mesure.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#carousel-home .carousel-item:nth-child(5) {
+    background-image: url("../content/slider-home/innovations-culinaires.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#carousel-home p {
+    font-family: 'Adamina', Georgia, "Times New Roman", serif;
+    font-weight: 300;
+    line-height: 1.4em;
+    font-size: 1.8em
+}
+
+.carousel-pages {
+    max-height: 380px;
+    overflow: hidden;
+}
+
+
+/*----------------------------------------------------- Preloader on Body
+--------------------------------------------------------------------------*/
+
+#mdb-preloader.loaded {
+    opacity: 0;
+    transition: .3s ease-in 1s;
+    visibility: hidden;
+}
+
+
+/*----------------------------------------------------- Dividers
+--------------------------------------------------------------------------*/
+
+.waveIndex {
+    z-index: 2;
+}
+
+.wave-container {
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+    width: 100%;
+    background: transparent;
+}
+
+.wave-bottom {
+    transform: translateY(-100%);
+    margin-top: 5px;
+}
+
+.wave-top {
+    transform: translateY(70%);
+}
+
+@keyframes animateWave {
+    0% {
+        transform: scale(1, 0);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.wave-container>svg {
+    display: block;
+    transform-origin: bottom;
+    animation: animateWave 1000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+
+/*----------------------------------------------------- Forms
+--------------------------------------------------------------------------*/
+
+.md-form>label {
+    font-weight: 400;
+    color: #bcbcbc;
+}
+
+.btnsOnScroll {
+    opacity: 0;
+}

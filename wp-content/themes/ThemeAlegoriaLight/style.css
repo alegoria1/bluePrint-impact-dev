@@ -1,0 +1,27 @@
+/*
+Theme Name: Alegoria Theme
+Theme URI: https://alegoria.fr
+Description: This is outstanding WP theme developed on Material Design for Bootstrap 4
+Version: 0.0.1
+Author: Alegoria & FSimondev
+Author URI: https://alegoria.fr
+*/
+.view {
+  height: 60vh;
+  width:100%;
+}
+
+@media (max-width: 740px) {
+  .view {
+    height: 70vh;
+  }
+}
+
+.custom-logo{
+    width:100%;
+}
+
+
+.inherit-collapse{
+  overflow: inherit!important;
+}
