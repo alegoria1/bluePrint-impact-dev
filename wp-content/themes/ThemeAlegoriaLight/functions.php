@@ -94,33 +94,46 @@ function theme_prefix_setup()
     );
 }
 
+add_action('after_setup_theme', 'theme_prefix_setup');
+
 /**
  * Add Second Logo
  */
-function alegoria_customize_register( $wp_customize ) {
+function alegoria_customize_register( WP_Customize_Manager $manager ) {
     //All our sections, settings, and controls will be added here
 
-    $wp_customize->add_section( 'my_site_logo' , array(
+    $manager->add_section( 'my_site_logo' , [
         'title'      => __( 'Le deuxieme logo', 'alegoria' ),
-        'priority'   => 30,
-    ) );
+        ]);
 
-    $wp_customize->add_control(
+    $manager->add_setting('header_background', [ 
+        'default' => '#FF0000'
+    ]);
+
+    $manager->add_setting('logo_settings');
+
+    $manager->add_control(
         new WP_Customize_Image_Control(
-            $wp_customize,
-            'logo',
+            $manager,
+            'logo_settings',
             array(
                'label'      => __( 'Upload a logo', 'alegoria' ),
                'section'    => 'my_site_logo',
-               'settings'   => 'my_site_logo_id' 
+               'settings'   => 'logo_settings' 
             )
         )
     );
 
+    $manager->add_control('header_background', [
+        'section' => 'my_site_logo',
+        'settings' => 'header_background',
+        'label' => 'couleur en tête'
+    ]);
+
 }
+
 add_action( 'customize_register', 'alegoria_customize_register' );
 
-add_action('after_setup_theme', 'theme_prefix_setup');
 /**
  * Adding post thumbnails
  */
