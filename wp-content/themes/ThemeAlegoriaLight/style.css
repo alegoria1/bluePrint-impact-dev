@@ -6,22 +6,102 @@ Version: 0.0.1
 Author: Alegoria & FSimondev
 Author URI: https://alegoria.fr
 */
+body{
+    overflow-x: hidden;
+}
+/**
+*SIZE
+**/
+
 .view {
-  height: 60vh;
-  width:100%;
+    height: 60vh;
+    width: 100%;
 }
 
 @media (max-width: 740px) {
-  .view {
-    height: 70vh;
-  }
+    .view {
+        height: 70vh;
+    }
 }
 
-.custom-logo{
-    width:100%;
+.mh-80 {
+    min-height: 80vh;
 }
 
+.custom-logo {
+    max-height: 60px;
+    width: auto;
+}
 
-.inherit-collapse{
-  overflow: inherit!important;
+.inherit-collapse {
+    overflow: inherit!important;
+}
+
+.img-hand-2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/**
+*COLORS
+**/
+
+.bg-gradient-light {
+    background: rgb(238, 238, 238);
+    background: radial-gradient(circle, rgba(238, 238, 238, 1) 0%, rgba(238, 238, 238, 1) 19%, rgba(252, 252, 252, 1) 70%, rgba(252, 252, 252, 1) 80%, rgba(238, 238, 238, 1) 100%);
+}
+
+.bg-gradient-blue-green {
+    background-color: transparent;
+    background-image: linear-gradient( 30deg, #66E3FF 30%, #66FF79 100%);
+}
+
+.bg-primary {
+    background-color: #323291!important;
+}
+
+.bg-secondary {
+    background-color: #66ff79!important;
+}
+.bg-tertiary{
+    background-color: #323291;
+}
+
+.btn-primary {
+    background-color: #323291!important;
+}
+
+.btn-secondary {
+    background-color: #66ff79!important;
+    border-radius: 0;
+    border: none;
+    color: #000;
+    padding: 1em 2.3em;
+}
+
+.btn-secondary:hover {
+    background-color: #13b078!important;
+    color: #fff;
+}
+
+/**
+*BUTTONS
+**/
+
+.btn::before, .btn::after {
+    position: absolute;
+    content: "";
+}
+
+.btn {
+    transition: 0.3s;
+}
+
+.hover-filled-slide-right::before {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
 }

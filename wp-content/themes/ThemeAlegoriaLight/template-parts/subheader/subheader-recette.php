@@ -8,7 +8,7 @@
         <?php
         } else if (!has_post_thumbnail() && !is_front_page()) {
         ?>
-            <div class="p-0 d-flex align-items-center justify-content-center mb-1 mb-md-4 w-100 h-100" style="background:#3d404f">
+            <div class="p-0 d-flex align-items-center justify-content-center mb-1 mb-md-4 w-100 h-100" style="background: <?php get_theme_mod('header_background')?>">
             </div>
         <?php
         } ?>
