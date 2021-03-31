@@ -20,7 +20,7 @@ function theme_enqueue_scripts()
 
     wp_register_style('Font_Awesome', get_template_directory_uri() . '/assets/css/font-awesome/css/all.min.css', []);
     wp_register_style('bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css', []);
-    wp_register_style('animate', get_template_directory_uri() . '/assets/css/animate.min.css', [], false, true);
+    wp_register_style('animate', get_template_directory_uri() . '/assets/css/animate.min.css', []);
     wp_register_script('bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js', ['popper', 'jquery'], false, true);
     wp_register_script('popper', get_template_directory_uri() . '/assets/js/popper.min.js', [], false, true);
     wp_deregister_script('jquery');
@@ -29,7 +29,7 @@ function theme_enqueue_scripts()
     wp_enqueue_style('bootstrap');
     wp_enqueue_style('animate');
     wp_enqueue_style('Font_Awesome');
-    wp_enqueue_style('Style', get_template_directory_uri() . '/assets/css/style.css');
+    wp_enqueue_style('Style', get_template_directory_uri() . '/style.css');
     wp_enqueue_script('bootstrap');
 
 
