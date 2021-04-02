@@ -26,8 +26,8 @@
                     <div class="media-body">
                         <h5 class="mt-0">Flavie – Directrice achats et approvisionnements</h5>
                         <p class="text-justify text-italic">J’ai eu la chance d’assister à un pilote de la formation « Les fondamentaux de la RSE ». Sophie nous captive littéralement par sa maîtrise des sujets portée par son enthousiasme naturel et ses talents de communicante. C’est très documenté et très professionnel. Tout y était : les enjeux, l’histoire du développement durable, les bases du lancement d’une démarche RSE, le cadre normatif ; et ce qui m’a particulièrement intéressée ; les exemples concrets et les bonnes pratiques des marques qui ont déjà enclenché des actions durables en pariant sur l’innovation et la créativité. <br>
-                        Sophie a toutes les connaissances et les outils pour vulgariser la RSE auprès des différents publics de l’entreprise et aider les directions et les opérationnels à enclencher leur propre démarche. <br>
-                        En 2020, on ne reporte plus, on passe à l’action !</p>
+                            Sophie a toutes les connaissances et les outils pour vulgariser la RSE auprès des différents publics de l’entreprise et aider les directions et les opérationnels à enclencher leur propre démarche. <br>
+                            En 2020, on ne reporte plus, on passe à l’action !</p>
                     </div>
                 </div>
             </div>
@@ -59,11 +59,13 @@
                 </div>
                 <div class="col-6 col-md-4">
                     <h3 class="pb-3">Plan du site</h3>
-                    <p>
-                        Sophie Laxenaire<br>
-                        <a href="mailto:sophie@blueprint-impact.fr">sophie@blueprint-impact.fr</a>
-                    </p>
-                    <p><i class="fab fa-linkedin-in"></i></p>
+                    <div class="footer-menu-list">
+                        <?php wp_nav_menu([
+                            'theme_location'    => 'footer',
+                            'container'         => false,
+                            'menu_class'        => 'nav flex-column'
+                        ]) ?>
+                    </div>
                 </div>
             </div>
         </div>

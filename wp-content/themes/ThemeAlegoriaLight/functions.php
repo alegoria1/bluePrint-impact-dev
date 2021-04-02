@@ -25,7 +25,7 @@ function theme_enqueue_scripts()
     wp_register_script('popper', get_template_directory_uri() . '/assets/js/popper.min.js', [], false, true);
     wp_deregister_script('jquery');
     wp_register_script('jquery', get_template_directory_uri() . '/assets/js/jquery-3.3.1.min.js', [], false, true);
-    
+
     wp_enqueue_style('bootstrap');
     wp_enqueue_style('animate');
     wp_enqueue_style('Font_Awesome');
@@ -43,8 +43,23 @@ add_action('wp_enqueue_scripts', 'theme_enqueue_scripts');
  */
 register_nav_menus(array(
     'primary'   => __('Primary Menu', 'alegoriathemelight'),
-    'secondary' => __('Secondary Menu', 'alegoriathemelight')
+    'secondary' => __('Secondary Menu', 'alegoriathemelight'),
+    'footer' => __('Footer Menu List', 'alegoriathemelight')
 ));
+function alegoriatheme_menu_class($classes)
+{
+    $classes[] = 'nav-item';
+    return $classes;
+}
+
+function alegoriatheme_menu_link_class($attrs)
+{
+    $attrs['class'] = 'nav-link custom-link';
+    return $attrs;
+}
+
+add_filter('nav_menu_css_class', 'alegoriatheme_menu_class');
+add_filter('nav_menu_link_attributes', 'alegoriatheme_menu_link_class');
 
 /**
  *  Register Post Formats
@@ -99,14 +114,15 @@ add_action('after_setup_theme', 'theme_prefix_setup');
 /**
  * Add Second Logo
  */
-function alegoria_customize_register( WP_Customize_Manager $manager ) {
+function alegoria_customize_register(WP_Customize_Manager $manager)
+{
     //All our sections, settings, and controls will be added here
 
-    $manager->add_section( 'my_site_logo' , [
-        'title'      => __( 'Le deuxieme logo', 'alegoria' ),
-        ]);
+    $manager->add_section('my_site_logo', [
+        'title'      => __('Le deuxieme logo', 'alegoria'),
+    ]);
 
-    $manager->add_setting('header_background', [ 
+    $manager->add_setting('header_background', [
         'default' => '#FF0000'
     ]);
 
@@ -117,9 +133,9 @@ function alegoria_customize_register( WP_Customize_Manager $manager ) {
             $manager,
             'logo_settings',
             array(
-               'label'      => __( 'Upload a logo', 'alegoria' ),
-               'section'    => 'my_site_logo',
-               'settings'   => 'logo_settings' 
+                'label'      => __('Upload a logo', 'alegoria'),
+                'section'    => 'my_site_logo',
+                'settings'   => 'logo_settings'
             )
         )
     );
@@ -129,10 +145,9 @@ function alegoria_customize_register( WP_Customize_Manager $manager ) {
         'settings' => 'header_background',
         'label' => 'couleur en tête'
     ]);
-
 }
 
-add_action( 'customize_register', 'alegoria_customize_register' );
+add_action('customize_register', 'alegoria_customize_register');
 
 /**
  * Adding post thumbnails
