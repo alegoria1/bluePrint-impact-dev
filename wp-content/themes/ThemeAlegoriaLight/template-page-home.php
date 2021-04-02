@@ -4,23 +4,23 @@ get_header();
 
 <div class="position-relative d-block d-md-flex align-items-center mh-80 overflow-hidden p-3 p-md-5 m-0 text-center text-md-left bg-gradient-light">
     <div class="col-md-6 p-lg-5 my-5">
-        <h1 class="display-4 font-weight-bold mt-2 mt-md-4 animate__animated animate__bounceInLeft">Activateur d’impact.</h1>
-        <p class="lead font-weight-normal animate__animated animate__slideInUp">Blueprint IMPACT existe pour vous aider à rep(a)nser votre activité autour de la réconciliation du triptyque de l’économique, du social et de l’environnemental. </p>
-        <a class="btn btn-secondary hover-filled-slide-right mb-2 mb-md-4 animate__animated animate__slideInUp" href="#">En savoir plus</a>
+        <h1 class="display-4 font-weight-bold mt-2 mt-md-4 wow animate__animated animate__bounceInLeft">Activateur d’impact.</h1>
+        <p class="lead font-weight-normal wow animate__animated animate__slideInUp">Blueprint IMPACT existe pour vous aider à rep(a)nser votre activité autour de la réconciliation du triptyque de l’économique, du social et de l’environnemental. </p>
+        <a class="btn btn-secondary hover-filled-slide-right mb-2 mb-md-4 wow animate__animated animate__slideInUp" href="#">En savoir plus</a>
     </div>
-    <div class="img-hand-2 d-none d-md-block animate__animated animate__fadeInRightBig">
+    <div class="img-hand-2 d-none d-md-block wow animate__animated animate__fadeInRightBig">
         <img src="<?php echo get_template_directory_uri();  ?>/assets/img/mains-ensemble.png" alt="" class="shadow-none">
     </div>
 </div>
 <section class="container-fluid p-3 p-md-5 m-0 text-center bg-gradient-blue-green">
     <div class="separator mt-5"></div>
-    <h6 class="text-uppercase text-white animate__animated animate__rotateInUpLeft">PATRICK D’HUMIÈRES</h6>
-    <h2 class="text-uppercase text-white animate__animated animate__rotateInUpLeft">“ Il n’est pas d’entreprise qui gagne, dans un monde qui perd. ”</h2>
+    <h6 class="text-uppercase text-white wow animate__animated animate__rotateInUpLeft">PATRICK D’HUMIÈRES</h6>
+    <h2 class="text-uppercase text-white wow animate__animated animate__rotateInUpLeft">“ Il n’est pas d’entreprise qui gagne, dans un monde qui perd. ”</h2>
     <div class="separator mb-5"></div>
 </section>
 <section class="container mt-3 mt-md-5 mb-3 mb-md-5">
     <div class="row d-block d-md-flex align-items-center">
-        <div class="col-12 col-md-7 order-1 order-md-0 text-justify  animate__animated animate__fadeInLeft">
+        <div class="col-12 col-md-7 order-1 order-md-0 text-justify  wow animate__animated animate__fadeInLeft">
             <h3 class="pb-2">Chez Blueprint Impact</h3>
             <p>Nous sommes convaincu·e·s qu’un développement performant et pérenne passe par la réconciliation du triptyque de l’<b>économique</b>, du <b>social</b> et de l’<b>environnemental</b>.</p>
             <p>
@@ -37,7 +37,7 @@ get_header();
                 Nous sommes passionné·e·s, engagé·e·s et déterminé·e·s à bâtir des <b>stratégies d’impact positif</b> au service d’un <b>développement durable</b>.
             </p>
         </div>
-        <div class="col-12 col-md-5 order-0 order-md-1 animate__animated animate__fadeInRight">
+        <div class="col-12 col-md-5 order-0 order-md-1 wow animate__animated animate__fadeInRight">
             <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_Home_1.png" alt="">
         </div>
     </div>
@@ -59,8 +59,8 @@ get_header();
 </section>
 <section class="container-fluid p-3 p-md-5 m-0 text-center bg-gradient-blue-green">
     <div class="separator mt-5"></div>
-    <h6 class="text-uppercase text-white animate__animated animate__rotateInUpLeft">Ray Anderson</h6>
-    <h2 class="text-uppercase text-white animate__animated animate__rotateInUpLeft">“ If not me, then who? If not now, then when? ”</h2>
+    <h6 class="text-uppercase text-white wow animate__animated animate__rotateInUpLeft">Ray Anderson</h6>
+    <h2 class="text-uppercase text-white wow animate__animated animate__rotateInUpLeft">“ If not me, then who? If not now, then when? ”</h2>
     <div class="separator mb-5"></div>
 </section>
 <section class="container mt-3 mt-md-5 mb-3 mb-md-5">
@@ -73,10 +73,10 @@ get_header();
         </div>
     </div>
     <div class="row d-block d-md-flex align-items-center mt-5">
-        <div class="col-12 col-md-5 animate__animated animate__fadeInLeft">
+        <div class="col-12 col-md-5 wow animate__animated animate__fadeInLeft">
             <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_Home_2.png" alt="">
         </div>
-        <div class="col-12 col-md-7 text-justify  animate__animated animate__fadeInRight">
+        <div class="col-12 col-md-7 text-justify  wow animate__animated animate__fadeInRight">
             <p>Plus de 15 années d’expérience professionnelle dans des secteurs d’activité variés et une sensibilité forte aux impératifs environnementaux et sociaux, m’ont permis de développer une compréhension des organisations, de leurs enjeux et de leurs contraintes. J’ai acquis la conviction de la nécessité d’un développement durable comme cadre essentiel de toute activité et comme condition sine qua non de la pérennité de toute entreprise. <br>
                 Je suis convaincue que chacun d’entre nous a le potentiel et le pouvoir d’agir et de réagir.
                 <br>
@@ -102,12 +102,12 @@ get_header();
     </div>
     <hr class="mt-5">
     <div class="row d-block d-md-flex align-items-center">
-        <div class="col-12 col-md-7 order-1 order-md-0 text-justify  animate__animated animate__fadeInLeft">
+        <div class="col-12 col-md-7 order-1 order-md-0 text-justify  wow animate__animated animate__fadeInLeft">
             <h3 class="pb-2">Un écosystème au service de vos enjeux</h3>
             <p>Blueprint IMPACT est un cabinet indépendant qui s’appuie sur un réseau d’experts spécialistes. Ce réseau nous permet de renforcer nos propositions au service de vos besoins.
             </p>
         </div>
-        <div class="col-12 col-md-5 order-0 order-md-1 animate__animated animate__fadeInRight">
+        <div class="col-12 col-md-5 order-0 order-md-1 wow animate__animated animate__fadeInRight">
             <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_Home_1.png" alt="">
         </div>
     </div>

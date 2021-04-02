@@ -23,6 +23,7 @@ function theme_enqueue_scripts()
     wp_register_style('animate', get_template_directory_uri() . '/assets/css/animate.min.css', []);
     wp_register_script('bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js', ['popper', 'jquery'], false, true);
     wp_register_script('popper', get_template_directory_uri() . '/assets/js/popper.min.js', [], false, true);
+    wp_register_script('WOW', get_template_directory_uri() . '/assets/js/wow.js', [], false, false);
     wp_deregister_script('jquery');
     wp_register_script('jquery', get_template_directory_uri() . '/assets/js/jquery-3.3.1.min.js', [], false, true);
 
@@ -31,6 +32,7 @@ function theme_enqueue_scripts()
     wp_enqueue_style('Font_Awesome');
     wp_enqueue_style('Style', get_template_directory_uri() . '/style.css');
     wp_enqueue_script('bootstrap');
+    wp_enqueue_script('WOW');
 
 
     // wp_enqueue_style('MDB', get_template_directory_uri() . '/assets/css/mdb.min.css');
