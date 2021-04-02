@@ -43,8 +43,7 @@ add_action('wp_enqueue_scripts', 'theme_enqueue_scripts');
  */
 register_nav_menus(array(
     'primary'   => __('Primary Menu', 'alegoriathemelight'),
-    'secondary' => __('Secondary Menu', 'alegoriathemelight'),
-    'footer' => __('Footer Menu List', 'alegoriathemelight')
+    'secondary' => __('Secondary Menu', 'alegoriathemelight')
 ));
 function alegoriatheme_menu_class($classes)
 {

@@ -61,7 +61,7 @@
                     <h3 class="pb-3">Plan du site</h3>
                     <div class="footer-menu-list">
                         <?php wp_nav_menu([
-                            'theme_location'    => 'footer',
+                            'theme_location'    => 'primary',
                             'container'         => false,
                             'menu_class'        => 'nav flex-column'
                         ]) ?>
