@@ -82,6 +82,14 @@ function alegoriatheme_widgets_init()
         'after_title'   => '</h3>',
     ));
     register_sidebar(array(
+        'name'          => __('Category Sidebar', 'alegoriatheme'),
+        'id'            => 'sidebar-category',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</aside>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ));
+    register_sidebar(array(
         'name'          => __('Home Sidebar', 'alegoriatheme'),
         'id'            => 'sbHome',
         'before_widget' => '<aside id="%1$s" class="widget %2$s">',

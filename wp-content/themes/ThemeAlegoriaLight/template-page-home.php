@@ -136,7 +136,7 @@ get_header();
         <h2 class="text-center p-3 font-weight-bold">Quelques chiffres</h2>
         <div class="row">
             <div class="col-12 col-md-4 p-3">
-                <p class="text-center"><i class="fas fa-seedling"></i></p>
+                <p class="text-center"><i class="fas fa-seedling fa-2x"></i></p>
                 <h5 class="h1 display-3 font-weight-bold text-center">65%</h5>
                 <p class="text-justify">
                     En 2018, 65% des consommateurs français déclarent choisir d’acheter ou de boycotter une marque pour ses prises de position. Un chiffre qui a augmenté de 15 points par rapport à l’année précédente.
@@ -144,7 +144,7 @@ get_header();
                 <p class="text-left font-italic small">source : Elan Edelman, Earned Brand 2018</p>
             </div>
             <div class="col-12 col-md-4 p-3">
-                <p class="text-center"><i class="fas fa-seedling"></i></p>
+                <p class="text-center"><i class="fas fa-seedling fa-2x"></i></p>
                 <h5 class="h1 display-3 font-weight-bold text-center">13%</h5>
                 <p class="text-justify">
                     Les entreprises qui mettent en place des pratiques RSE enregistrent une performance économique supérieure en moyenne de 13 % par rapport à celles qui ne le font pas.
@@ -152,7 +152,7 @@ get_header();
                 <p class="text-left font-italic small">source : étude France Stratégie en Janvier 2016 auprès de 8500 entreprises françaises</p>
             </div>
             <div class="col-12 col-md-4 p-3">
-                <p class="text-center"><i class="fas fa-seedling"></i></p>
+                <p class="text-center"><i class="fas fa-seedling fa-2x"></i></p>
                 <h5 class="h1 display-3 font-weight-bold text-center">49%</h5>
                 <p class="text-justify">
                     La RSE est en 2020 le premier facteur explicatif de la réputation des marques avec une contribution de 49 %, trois fois plus importante qu’il y a 10 ans.

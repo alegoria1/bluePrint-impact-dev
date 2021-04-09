@@ -85,6 +85,10 @@ body{
     color: #fff;
 }
 
+.bg-conseil{
+    background: url("/assets/img/conseil.jpg") no-repeat cover 50% 100%;
+}
+
 /**
 *BUTTONS
 **/
