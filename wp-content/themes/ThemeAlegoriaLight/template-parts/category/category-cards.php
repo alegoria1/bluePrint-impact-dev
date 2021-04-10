@@ -11,7 +11,7 @@ get_header();
 //get_template_part('template-parts/subheader/subheader', 'cat');
 ?>
 <div class="position-relative d-block d-md-flex align-items-center mh-80 overflow-hidden p-3 p-md-5 m-0 text-center text-md-left bg-gradient-light">
-    <div class="col-md-4 p-lg-5 my-5">
+    <div class="col-md-6 p-lg-5 my-5">
         <h1 class="display-4 font-weight-bold mt-2 mt-md-4 wow animate__animated animate__bounceInLeft">Blog</h1>
         <!-- <p class="lead font-weight-normal wow animate__animated animate__slideInUp">Blueprint IMPACT existe pour vous aider à rep(a)nser votre activité autour de la réconciliation du triptyque de l’économique, du social et de l’environnemental. </p>
         <a class="btn btn-secondary hover-filled-slide-right mb-2 mb-md-4 wow animate__animated animate__slideInUp" href="#">En savoir plus</a> -->
@@ -29,7 +29,7 @@ get_header();
                         while (have_posts()) {
                             the_post();
                     ?>
-                            <div class="col-12 col-md-6">
+                            <div class="col-12 col-md-4">
                                 <div class="card border-0">
                                     <div class="overlay overflow-hidden" style="max-height:240px">
                                         <a href="<?php echo the_permalink() ?>">
