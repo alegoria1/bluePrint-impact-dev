@@ -5,6 +5,7 @@ get_header();
 <div class="position-relative d-block d-md-flex align-items-center mh-80 overflow-hidden p-3 p-md-5 m-0 text-center text-md-left bg-gradient-light">
     <div class="col-md-6 p-lg-5 my-5">
         <h1 class="display-4 font-weight-bold mt-2 mt-md-4 wow animate__animated animate__bounceInLeft">Activateur d’impact.</h1>
+        <h1 class="display-4 font-weight-bold mt-2 mt-md-4 wow animate__animated animate__bounceInLeft">Accélérateur de développement.</h1>
         <p class="lead font-weight-normal wow animate__animated animate__slideInUp">Blueprint IMPACT existe pour vous aider à rep(a)nser votre activité autour de la réconciliation du triptyque de l’économique, du social et de l’environnemental. </p>
         <a class="btn btn-secondary hover-filled-slide-right mb-2 mb-md-4 wow animate__animated animate__slideInUp" href="#">En savoir plus</a>
     </div>
@@ -52,7 +53,7 @@ get_header();
         </div>
         <div class="col-12 col-md-6">
             <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logo_zei.png" alt="" class="d-block mx-auto" style="max-width:100px;">
-            <p class="text-justify">Blueprint IMPACT s’engage pour le développement durable à travers des engagements RSE que vous pouvez retrouver sur notre profil Zei.</p>
+            <p class="text-justify">Blueprint IMPACT s’engage pour le développement durable à travers des engagements RSE que vous pouvez retrouver sur notre profil <a href="https://zei-world.com/pro/2844" target="_blank">Zei</a>.</p>
         </div>
     </div>
     <hr class="mt-3">
@@ -63,7 +64,7 @@ get_header();
     <h2 class="text-uppercase text-white wow animate__animated animate__rotateInUpLeft">“ If not me, then who? If not now, then when? ”</h2>
     <div class="separator mb-5"></div>
 </section>
-<section class="container mt-3 mt-md-5 mb-3 mb-md-5">
+<!-- <section class="container mt-3 mt-md-5 mb-3 mb-md-5">
     <div class="row mt-5 pt-3">
         <div class="col-12">
             <h2 class="text-center p-3 font-weight-bold">Qui suis-je ?</h2>
@@ -87,7 +88,7 @@ get_header();
         </div>
 
     </div>
-</section>
+</section> -->
 <section class="container mt-3 mt-md-5 mb-3 mb-md-5">
     <hr>
     <div class="row mt-5 pt-3">
@@ -114,19 +115,29 @@ get_header();
     <div class="row mt-5 d-block d-md-flex align-items-center">
         <div class="col-12 col-md-1"></div>
         <div class="col-12 col-md-2">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logos/logo_maichau.png" alt="" class="d-block mx-auto img-fluid">
+            <a href="https://maichau.fr/" target="_blank">
+                <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logos/logo_maichau.png" alt="" class="d-block mx-auto img-fluid">
+            </a>
         </div>
         <div class="col-12 col-md-2">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logos/logo_ecores.jpg" alt="" class="d-block mx-auto img-fluid">
+            <a href="https://www.ecores.eu/project/reduire-les-emissions-des-co2/" target="_blank">
+                <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logos/logo_ecores.jpg" alt="" class="d-block mx-auto img-fluid">
+            </a>
         </div>
         <div class="col-12 col-md-2">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logos/logo-diag.png" alt="" class="d-block mx-auto img-fluid">
+            <a href="https://diag26000.net/" target="_blank">
+                <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logos/logo-diag.png" alt="" class="d-block mx-auto img-fluid">
+            </a>
         </div>
         <div class="col-12 col-md-2">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logos/logo-act4earth.png" alt="" class="d-block mx-auto img-fluid">
+            <a href="https://weact4earth.fr/" target="_blank">
+                <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logos/logo-act4earth.png" alt="" class="d-block mx-auto img-fluid">
+            </a>
         </div>
         <div class="col-12 col-md-2">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logos/logo-ksapa.jpg" alt="" class="d-block mx-auto img-fluid w-50">
+            <a href="https://ksapa.org/fr/" target="_blank">
+                <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logos/logo-ksapa.jpg" alt="" class="d-block mx-auto img-fluid w-50">
+            </a>
         </div>
         <div class="col-12 col-md-1"></div>
     </div>

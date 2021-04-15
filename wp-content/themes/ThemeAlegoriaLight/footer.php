@@ -74,7 +74,7 @@
     <section class="container-fluid bg-tertiary text-white">
         <div class="row text-center border-top border-white p-3">
             <div class="col-12">
-                © Blueprint Impact 2021
+                © blueprint IMPACT 2021
             </div>
         </div>
     </section>

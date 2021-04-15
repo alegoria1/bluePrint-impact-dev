@@ -44,11 +44,11 @@ get_header();
 <section class="container-fluid bg-light p-5">
     <div class="container">
         <div class="row">
-            <div class="col-12 p-3 text-center">
+            <div class="col-12 p-3">
                 <p>
                     Le processus de certification s’appuie sur les réponses et preuves apportées par l’entreprise candidate au BIA (B Impact Assessment). Le BIA présente plus de 200 questions pour mesurer 5 domaines d’impact : Gouvernance, Collaborateurs, Collectivité, Environnement et Clients. </p>
                 <p>B Corp est un label RSE généraliste, porté par une ONG. Le BIA est aujourd’hui le seul questionnaire 100% transparent : accessible gratuitement et directement en ligne pour toutes les entreprises.</p>
-                <p>Plus d’information : <a href="https://bcorporation.eu/about-b-lab/country-partner/france" target="_blank"> France | Certified B Corporation</a>
+                <p class="text-center">Plus d’information : <a href="https://bcorporation.eu/about-b-lab/country-partner/france" target="_blank"> France | Certified B Corporation</a>
                 </p>
             </div>
         </div>

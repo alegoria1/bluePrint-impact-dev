@@ -26,7 +26,7 @@ get_header();
     </div> -->
     <div class="row d-block d-md-flex align-items-center mt-5">
         <div class="col-12 col-md-5 wow animate__animated animate__fadeInLeft">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_Home_2.png" alt="">
+            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/strategieRSE.png" alt="" style="width: 100%; height: auto;">
         </div>
         <div class="col-12 col-md-7 text-justify  wow animate__animated animate__fadeInRight">
             <h3>Une approche sur-mesure, concrète et opérationnelle</h3>
@@ -49,12 +49,12 @@ get_header();
             </p>
         </div>
         <div class="col-12 col-md-5 wow animate__animated animate__fadeInRight">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_Home_2.png" alt="">
+            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/planRSE.png" alt="" style="width: 100%; height: auto;">
         </div>
     </div>
     <div class="row d-block d-md-flex align-items-center mt-5">
         <div class="col-12 col-md-5 wow animate__animated animate__fadeInLeft">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_Home_2.png" alt="">
+            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/bonneIdee.png" alt="" style="width: 100%; height: auto;">
         </div>
         <div class="col-12 col-md-7 text-justify  wow animate__animated animate__fadeInRight">
             <h3>Une mission centrale : votre autonomie</h3>
@@ -69,7 +69,7 @@ get_header();
 <section class="container-fluid p-3 p-md-5 m-0 text-center bg-gradient-blue-green">
     <div class="separator mt-5"></div>
     <h2 class="text-uppercase text-white wow animate__animated animate__rotateInUpLeft">Mettre en place votre stratégie RSE</h2>
-    <h6 class="text-white wow animate__animated animate__rotateInUpLeft">Blueprint IMPACT s’appuie sur une méthodologie, des outils et une expertise éprouvés pour vous proposer un accompagnement à chacune des étapes de la mise en place de votre stratégie RSE.</h6>
+    <!-- <h6 class="text-white wow animate__animated animate__rotateInUpLeft">Blueprint IMPACT s’appuie sur une méthodologie, des outils et une expertise éprouvés pour vous proposer un accompagnement à chacune des étapes de la mise en place de votre stratégie RSE.</h6> -->
     <div class="separator mb-5"></div>
 </section>
 <section class="container-fluid bg-light p-5">
@@ -77,12 +77,15 @@ get_header();
         <!-- <h2 class="text-center p-3 font-weight-bold wow animate__animated animate__fadeInDown">Mettre en place votre stratégie RSE</h2>
         <p class="text-center pb-3 font-weight-bold wow animate__animated animate__fadeInDown">Blueprint IMPACT s’appuie sur une méthodologie, des outils et une expertise éprouvés pour vous proposer un accompagnement à chacune des étapes de la mise en place de votre stratégie RSE.</p> -->
         <div class="row">
+            <div class="col-12">
+                <h6 class="wow animate__animated animate__rotateInUpLeft text-center">Blueprint IMPACT s’appuie sur une méthodologie, des outils et une expertise éprouvés pour vous proposer un accompagnement à chacune des étapes de la mise en place de votre stratégie RSE.</h6>
+            </div>
             <div class="col-12 col-md-4 p-3  wow animate__animated animate__fadeInLeft">
                 <p class="text-center"><i class="fas fa-seedling fa-2x"></i></p>
                 <h3 class="font-weight-bold text-center">Diagnostic</h3>
                 <p class="text-justify">
                     Une analyse de l’existant intégrant : un état des lieux des initiatives mises en place, un recueil de l’ensemble des supports, contenus et documents reliés à la démarche RSE, un benchmark des pratiques des principaux concurrents, des interviews de personnes clés sur l’ensemble des strates de votre organisation. <br>
-                    blueprint IMPACT a développé un questionnaire et une grille d’analyse permettant une restitution du diagnostic alignée avec l’ensemble des dimensions RSE préconisées dans le cadre des lignes directrices ISO 26 000.
+                    blueprint IMPACT a développé un questionnaire et une grille d’analyse permettant une restitution du diagnostic alignée avec l’ensemble des dimensions RSE préconisées dans le cadre des lignes directrices <a href="https://www.iso.org/fr/iso-26000-social-responsibility.html" target="_blank">ISO 26 000</a>.
                 </p>
             </div>
             <div class="col-12 col-md-4 p-3  wow animate__animated animate__fadeInDown">
@@ -141,7 +144,7 @@ get_header();
 
 <section class="container-fluid p-3 p-md-5 m-0 text-center bg-gradient-blue-green">
     <div class="separator mt-5"></div>
-    <h2 class="text-uppercase text-white wow animate__animated animate__rotateInUpLeft">Pour vos conférences, séminaires, réunion d’équipes autour des sujets de RSE & développement durable.</h2>
+    <h2 class="text-uppercase text-white wow animate__animated animate__rotateInUpLeft">Pour vos conférences, séminaires, réunion d’équipes autour des sujets de RSE & développement durable</h2>
     <div class="separator mb-5"></div>
 </section>
 
@@ -156,7 +159,6 @@ get_header();
             <img src="<?php echo get_template_directory_uri();  ?>/assets/img/conf.jpg" alt="" class="img-fluid">
         </div>
         <div class="col-12 col-md-7 text-justify  wow animate__animated animate__fadeInRight">
-            <h3>Pour vos conférences, séminaires, réunion d’équipes autour des sujets de RSE & développement durable.</h3>
             <p>Conception et présentation de contenus sur-mesure adaptés à votre public et vos objectifs. </p>
             <p>Interventions sur une thématique large (développement durable, RSE, …) ou un concept précis (économie circulaire, éco-conception, empreinte carbone, made in France, …) adaptées à votre secteur d’activité
             </p>
@@ -176,12 +178,13 @@ get_header();
             <h2 class="text-center p-3 font-weight-bold">Nos principes</h2>
         </div>
     </div> -->
+
         <div class="row d-block d-md-flex align-items-center mt-5">
             <div class="col-12 col-md-5 wow animate__animated animate__fadeInLeft">
                 <img src="<?php echo get_template_directory_uri();  ?>/assets/img/fresque.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-7 text-justify  wow animate__animated animate__fadeInRight">
-                <h3>Organisation d’ateliers de la Fresque du Climat</h3>
+                <h3>Organisation d’ateliers de la <a href="https://fresqueduclimat.org/" target="_blank">Fresque du Climat</a></h3>
                 <p>La Fresque du Climat est un atelier scientifique, collaboratif et créatif conçu par Cédric Ringenbach pour sensibiliser de façon ludique au changement climatique. <br>
                     Il permet en peu de temps de découvrir le fonctionnement du climat ainsi que les causes et conséquences de son dérèglement. <br>
                     Les ateliers durent 2-3h et s’adaptent parfaitement à des actions de team building, animation d’équipes, sensibilisation de comités de direction, etc.

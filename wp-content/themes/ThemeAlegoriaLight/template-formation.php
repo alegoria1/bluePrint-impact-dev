@@ -43,7 +43,6 @@ get_header();
                 <p class="text-justify">
                     J’organise également des formations à Paris. Chaque module de formation dure 1 journée. Des dates sont disponibles tous les mois. Contactez-moi pour connaître le calendrier.
                 </p>
-                <a class="btn btn-secondary hover-filled-slide-right mb-2 mb-md-4 wow animate__animated animate__slideInUp" href="#">Contactez-moi</a>
                 <p class="text-justify">Je me déplace également dans toute la France pour répondre aux besoins de mes clients.</p>
                 <p class="font-weight-bold text-justify">Toutes les formations peuvent être réalisées en présentiel ou en distanciel (classes virtuelles).</p>
             </div>
@@ -66,7 +65,7 @@ get_header();
     </div> -->
         <div class="row d-block d-md-flex align-items-center mt-5">
             <div class="col-12 col-md-5 wow animate__animated animate__fadeInLeft">
-                <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_OFFRES_1.jpg" alt="" class="img-fluid">
+                <img src="<?php echo get_template_directory_uri();  ?>/assets/img/formation-engagementRSE.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-7 text-justify  wow animate__animated animate__fadeInRight">
                 <h3>La Responsabilité sociale et environnementale (RSE) – Fondamentaux</h3>
@@ -76,7 +75,7 @@ get_header();
         </div>
         <div class="row d-block d-md-flex align-items-center mt-5">
             <div class="col-12 col-md-5 wow animate__animated animate__fadeInLeft">
-                <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_OFFRES_2.jpg" alt="" class="img-fluid">
+                <img src="<?php echo get_template_directory_uri();  ?>/assets/img/bonneIdee.png" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-7 text-justify  wow animate__animated animate__fadeInRight">
                 <h3>Mettre en place une démarche de Responsabilité sociale et environnementale (RSE) étape par étape</h3>
@@ -86,7 +85,7 @@ get_header();
         </div>
         <div class="row d-block d-md-flex align-items-center mt-5">
             <div class="col-12 col-md-5 wow animate__animated animate__fadeInLeft">
-                <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_OFFRES_1.jpg" alt="" class="img-fluid">
+                <img src="<?php echo get_template_directory_uri();  ?>/assets/img/formation-engagementRSE2.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-12 col-md-7 text-justify  wow animate__animated animate__fadeInRight">
                 <h3>Module sur-mesure</h3>

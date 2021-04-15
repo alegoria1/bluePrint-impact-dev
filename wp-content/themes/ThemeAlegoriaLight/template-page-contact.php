@@ -16,7 +16,7 @@ get_header();
                 Contactez-nous. <br>
                 Sophie Laxenaire <br>
                 sophie@blueprint-impact.Fr <br>
-                picto LN avec lien profil LN.
+                <a href="https://www.linkedin.com/in/sophielaxenaire/" target="_blank"><img src="<?php echo get_template_directory_uri();  ?>/assets/img/ln.png" alt="linkedIN" style="width: 20px; height: 20px;"></a>
             </p>
         </div>
     </div>
