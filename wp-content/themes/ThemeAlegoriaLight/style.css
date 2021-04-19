@@ -24,6 +24,9 @@ body{
     }
 }
 
+.mh-60 {
+    min-height: 60vh;
+}
 .mh-80 {
     min-height: 80vh;
 }
@@ -40,7 +43,7 @@ body{
 .img-hand-2 {
     position: absolute;
     right: 0;
-    top: 0;
+    bottom: 0;
 }
 
 /**

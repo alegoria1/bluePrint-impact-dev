@@ -2,10 +2,10 @@
 get_header();
 ?>
 
-<div class="position-relative d-block d-md-flex align-items-center mh-80 overflow-hidden p-3 p-md-5 m-0 text-center text-md-left bg-gradient-light">
+<div class="position-relative d-block d-md-flex align-items-center mh-60 overflow-hidden p-3 p-md-5 m-0 text-center text-md-left bg-gradient-light">
     <div class="col-md-6 p-lg-5 my-5">
         <h1 class="display-4 font-weight-bold mt-2 mt-md-4 wow animate__animated animate__bounceInLeft">Conseil</h1>
-        <!-- <p class="lead font-weight-normal wow animate__animated animate__slideInUp">Blueprint IMPACT existe pour vous aider à rep(a)nser votre activité autour de la réconciliation du triptyque de l’économique, du social et de l’environnemental. </p>
+        <!-- <p class="lead font-weight-normal wow animate__animated animate__slideInUp">blueprint IMPACT existe pour vous aider à rep(a)nser votre activité autour de la réconciliation du triptyque de l’économique, du social et de l’environnemental. </p>
         <a class="btn btn-secondary hover-filled-slide-right mb-2 mb-md-4 wow animate__animated animate__slideInUp" href="#">En savoir plus</a> -->
     </div>
     <div class="img-hand-2 d-none d-md-block wow animate__animated animate__fadeInRightBig">
@@ -26,7 +26,7 @@ get_header();
     </div> -->
     <div class="row d-block d-md-flex align-items-center mt-5">
         <div class="col-12 col-md-5 wow animate__animated animate__fadeInLeft">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/strategieRSE.png" alt="" style="width: 100%; height: auto;">
+            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/strategieRSE.jpg" alt="" style="width: 100%; height: auto;">
         </div>
         <div class="col-12 col-md-7 text-justify  wow animate__animated animate__fadeInRight">
             <h3>Une approche sur-mesure, concrète et opérationnelle</h3>
@@ -49,12 +49,12 @@ get_header();
             </p>
         </div>
         <div class="col-12 col-md-5 wow animate__animated animate__fadeInRight">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/planRSE.png" alt="" style="width: 100%; height: auto;">
+            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/planRSE.jpg" alt="" style="width: 100%; height: auto;">
         </div>
     </div>
     <div class="row d-block d-md-flex align-items-center mt-5">
         <div class="col-12 col-md-5 wow animate__animated animate__fadeInLeft">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/bonneIdee.png" alt="" style="width: 100%; height: auto;">
+            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/bonneIdee.jpg" alt="" style="width: 100%; height: auto;">
         </div>
         <div class="col-12 col-md-7 text-justify  wow animate__animated animate__fadeInRight">
             <h3>Une mission centrale : votre autonomie</h3>
@@ -69,16 +69,16 @@ get_header();
 <section class="container-fluid p-3 p-md-5 m-0 text-center bg-gradient-blue-green">
     <div class="separator mt-5"></div>
     <h2 class="text-uppercase text-white wow animate__animated animate__rotateInUpLeft">Mettre en place votre stratégie RSE</h2>
-    <!-- <h6 class="text-white wow animate__animated animate__rotateInUpLeft">Blueprint IMPACT s’appuie sur une méthodologie, des outils et une expertise éprouvés pour vous proposer un accompagnement à chacune des étapes de la mise en place de votre stratégie RSE.</h6> -->
+    <!-- <h6 class="text-white wow animate__animated animate__rotateInUpLeft">blueprint IMPACT s’appuie sur une méthodologie, des outils et une expertise éprouvés pour vous proposer un accompagnement à chacune des étapes de la mise en place de votre stratégie RSE.</h6> -->
     <div class="separator mb-5"></div>
 </section>
 <section class="container-fluid bg-light p-5">
     <div class="container">
         <!-- <h2 class="text-center p-3 font-weight-bold wow animate__animated animate__fadeInDown">Mettre en place votre stratégie RSE</h2>
-        <p class="text-center pb-3 font-weight-bold wow animate__animated animate__fadeInDown">Blueprint IMPACT s’appuie sur une méthodologie, des outils et une expertise éprouvés pour vous proposer un accompagnement à chacune des étapes de la mise en place de votre stratégie RSE.</p> -->
+        <p class="text-center pb-3 font-weight-bold wow animate__animated animate__fadeInDown">blueprint IMPACT s’appuie sur une méthodologie, des outils et une expertise éprouvés pour vous proposer un accompagnement à chacune des étapes de la mise en place de votre stratégie RSE.</p> -->
         <div class="row">
             <div class="col-12">
-                <h6 class="wow animate__animated animate__rotateInUpLeft text-center">Blueprint IMPACT s’appuie sur une méthodologie, des outils et une expertise éprouvés pour vous proposer un accompagnement à chacune des étapes de la mise en place de votre stratégie RSE.</h6>
+                <h6 class="wow animate__animated animate__rotateInUpLeft text-center">blueprint IMPACT s’appuie sur une méthodologie, des outils et une expertise éprouvés pour vous proposer un accompagnement à chacune des étapes de la mise en place de votre stratégie RSE.</h6>
             </div>
             <div class="col-12 col-md-4 p-3  wow animate__animated animate__fadeInLeft">
                 <p class="text-center"><i class="fas fa-seedling fa-2x"></i></p>

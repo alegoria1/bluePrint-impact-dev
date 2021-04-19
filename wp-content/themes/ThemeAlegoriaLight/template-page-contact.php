@@ -4,7 +4,7 @@ get_header();
 <div class="container mt-5 pt-3 pb-3">
     <div class="row d-flex align-items-center">
         <div class="col-12 col-md-6">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_Contact.jpg" alt="" class="shadow-none img-fluid">
+            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/contact.jpg" alt="" class="shadow-none img-fluid">
         </div>
         <div class="col-12 col-md-6">
             <p>

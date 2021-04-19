@@ -5,8 +5,8 @@ get_header();
 <div class="position-relative d-block d-md-flex align-items-center mh-80 overflow-hidden p-3 p-md-5 m-0 text-center text-md-left bg-gradient-light">
     <div class="col-md-6 p-lg-5 my-5">
         <h1 class="display-4 font-weight-bold mt-2 mt-md-4 wow animate__animated animate__bounceInLeft">Activateur d’impact.</h1>
-        <h1 class="display-4 font-weight-bold mt-2 mt-md-4 wow animate__animated animate__bounceInLeft">Accélérateur de développement.</h1>
-        <p class="lead font-weight-normal wow animate__animated animate__slideInUp">Blueprint IMPACT existe pour vous aider à rep(a)nser votre activité autour de la réconciliation du triptyque de l’économique, du social et de l’environnemental. </p>
+        <h2 class="h3 font-weight-bold mt-2 mt-md-3 wow animate__animated animate__bounceInLeft">Accélérateur de développement.</h2>
+        <p class="lead font-weight-normal wow animate__animated animate__slideInUp">blueprint IMPACT existe pour vous aider à rep(a)nser votre activité autour de la réconciliation du triptyque de l’économique, du social et de l’environnemental. </p>
         <a class="btn btn-secondary hover-filled-slide-right mb-2 mb-md-4 wow animate__animated animate__slideInUp" href="#">En savoir plus</a>
     </div>
     <div class="img-hand-2 d-none d-md-block wow animate__animated animate__fadeInRightBig">
@@ -22,7 +22,7 @@ get_header();
 <section class="container mt-3 mt-md-5 mb-3 mb-md-5">
     <div class="row d-block d-md-flex align-items-center">
         <div class="col-12 col-md-7 order-1 order-md-0 text-justify  wow animate__animated animate__fadeInLeft">
-            <h3 class="pb-2">Chez Blueprint Impact</h3>
+            <h3 class="pb-2">Chez blueprint Impact</h3>
             <p>Nous sommes convaincu·e·s qu’un développement performant et pérenne passe par la réconciliation du triptyque de l’<b>économique</b>, du <b>social</b> et de l’<b>environnemental</b>.</p>
             <p>
                 Nous croyons au pouvoir des entreprises à <b>agir</b> sur les grands enjeux du XXIème siècle.</p>
@@ -46,14 +46,14 @@ get_header();
     <div class="row mt-5 pt-3">
         <div class="col-12 col-md-6">
             <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logo_1_for_the-planet.png" alt="" class="d-block mx-auto" style="max-width:100px;">
-            <p class="text-justify"><b>Blueprint IMPACT est membre du mouvement mondial d’entrepreneurs engagés <a href="https://www.onepercentfortheplanet.fr/" target="_blank"> 1% for the Planet.</a></b><br>
+            <p class="text-justify"><b>blueprint IMPACT est membre du mouvement mondial d’entrepreneurs engagés <a href="https://www.onepercentfortheplanet.fr/" target="_blank"> 1% for the Planet.</a></b><br>
                 <b>1% for the Planet</b> est le seul collectif international rassemblant les entreprises philanthropes impliquées dans la protection de l’environnement. C’est un mouvement international d’entrepreneur.e.s engagé.e.s dans une nouvelle économie, plus respectueuse des hommes et de la planète. Les entreprises membres pensent qu’elles ont un rôle à jouer dans la lutte contre les changements climatiques, l’érosion de la biodiversité ou autres thématiques environnementales. <br>
                 Elles s’engagent à <b>reverser 1% de leur chiffre d’affaires net à des associations environnementales</b>.
             </p>
         </div>
         <div class="col-12 col-md-6">
             <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logo_zei.png" alt="" class="d-block mx-auto" style="max-width:100px;">
-            <p class="text-justify">Blueprint IMPACT s’engage pour le développement durable à travers des engagements RSE que vous pouvez retrouver sur notre profil <a href="https://zei-world.com/pro/2844" target="_blank">Zei</a>.</p>
+            <p class="text-justify">blueprint IMPACT s’engage pour le développement durable à travers des engagements RSE que vous pouvez retrouver sur notre profil <a href="https://zei-world.com/pro/2844" target="_blank">Zei</a>.</p>
         </div>
     </div>
     <hr class="mt-3">
@@ -68,7 +68,7 @@ get_header();
     <div class="row mt-5 pt-3">
         <div class="col-12">
             <h2 class="text-center p-3 font-weight-bold">Qui suis-je ?</h2>
-            <p class="text-justify">Blueprint-IMPACT entreprend de former avec <b>énergie</b> et <b>enthousiasme</b> sur les outils et méthodes permettant aux entreprises de s’engager sur le chemin de la responsabilité sociale, sociétale et environnementale.
+            <p class="text-justify">blueprint-IMPACT entreprend de former avec <b>énergie</b> et <b>enthousiasme</b> sur les outils et méthodes permettant aux entreprises de s’engager sur le chemin de la responsabilité sociale, sociétale et environnementale.
             </p>
             <p class="text-justify">Il est possible – et souhaitable – de réconcilier ces 3 enjeux : économiques, sociaux et environnementaux. A ce titre, la RSE, miroir du développement durable appliqué aux entreprises, et le référentiel qu’elle propose, constituent une première étape incontournable afin de réaligner indicateurs financiers, valeurs et raison d’être de l’entreprise. <b>Parce que votre empreinte est unique et qu’elle fonde vos valeurs et votre identité, décidez de lui donner un impact positif.</b></p>
         </div>
@@ -105,11 +105,11 @@ get_header();
     <div class="row d-block d-md-flex align-items-center">
         <div class="col-12 col-md-7 order-1 order-md-0 text-justify  wow animate__animated animate__fadeInLeft">
             <h3 class="pb-2">Un écosystème au service de vos enjeux</h3>
-            <p>Blueprint IMPACT est un cabinet indépendant qui s’appuie sur un réseau d’experts spécialistes. Ce réseau nous permet de renforcer nos propositions au service de vos besoins.
+            <p>blueprint IMPACT est un cabinet indépendant qui s’appuie sur un réseau d’experts spécialistes. Ce réseau nous permet de renforcer nos propositions au service de vos besoins.
             </p>
         </div>
         <div class="col-12 col-md-5 order-0 order-md-1 wow animate__animated animate__fadeInRight">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_Home_1.png" alt="">
+            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_home_1.jpg" alt="">
         </div>
     </div>
     <div class="row mt-5 d-block d-md-flex align-items-center">

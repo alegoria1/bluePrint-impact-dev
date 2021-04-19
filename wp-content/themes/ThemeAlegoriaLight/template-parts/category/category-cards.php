@@ -10,14 +10,14 @@
 get_header();
 //get_template_part('template-parts/subheader/subheader', 'cat');
 ?>
-<div class="position-relative d-block d-md-flex align-items-center mh-80 overflow-hidden p-3 p-md-5 m-0 text-center text-md-left bg-gradient-light">
+<div class="position-relative d-block d-md-flex align-items-center mh-60 overflow-hidden p-3 p-md-5 m-0 text-center text-md-left bg-gradient-light">
     <div class="col-md-6 p-lg-5 my-5">
         <h1 class="display-4 font-weight-bold mt-2 mt-md-4 wow animate__animated animate__bounceInLeft">Blog</h1>
-        <!-- <p class="lead font-weight-normal wow animate__animated animate__slideInUp">Blueprint IMPACT existe pour vous aider à rep(a)nser votre activité autour de la réconciliation du triptyque de l’économique, du social et de l’environnemental. </p>
+        <!-- <p class="lead font-weight-normal wow animate__animated animate__slideInUp">blueprint IMPACT existe pour vous aider à rep(a)nser votre activité autour de la réconciliation du triptyque de l’économique, du social et de l’environnemental. </p>
         <a class="btn btn-secondary hover-filled-slide-right mb-2 mb-md-4 wow animate__animated animate__slideInUp" href="#">En savoir plus</a> -->
     </div>
     <div class="img-hand-2 d-none d-md-block wow animate__animated animate__fadeInRightBig">
-        <img src="<?php echo get_template_directory_uri();  ?>/assets/img/plume.png" alt="" class="shadow-none">
+        <img src="<?php echo get_template_directory_uri();  ?>/assets/img/blog.png" alt="" class="shadow-none">
     </div>
 </div>
 <div class="container-fluid" style="max-width:1400px;">
