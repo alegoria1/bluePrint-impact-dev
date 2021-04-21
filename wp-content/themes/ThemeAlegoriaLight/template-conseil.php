@@ -9,7 +9,7 @@ get_header();
         <a class="btn btn-secondary hover-filled-slide-right mb-2 mb-md-4 wow animate__animated animate__slideInUp" href="#">En savoir plus</a> -->
     </div>
     <div class="img-hand-2 d-none d-md-block wow animate__animated animate__fadeInRightBig">
-        <img src="<?php echo get_template_directory_uri();  ?>/assets/img/conseil.png" alt="" class="shadow-none">
+        <img src="<?php echo get_template_directory_uri();  ?>/assets/img/conseil2.png" alt="" class="shadow-none">
     </div>
 </div>
 <section class="container-fluid p-3 p-md-5 m-0 text-center bg-gradient-blue-green">

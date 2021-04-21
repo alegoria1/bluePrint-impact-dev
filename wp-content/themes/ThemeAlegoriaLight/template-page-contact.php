@@ -20,8 +20,6 @@ get_header();
             </p>
         </div>
     </div>
-    <div class="row d-flex align-items-center justify-content-center mt-5">
-        <div class="col-12 col-md-6"><?php echo do_shortcode( '[contact-form-7 id="47" title="Contact form 1"]' ); ?></div>
-    </div>
+    
 </div>
 <?php get_footer(); ?>

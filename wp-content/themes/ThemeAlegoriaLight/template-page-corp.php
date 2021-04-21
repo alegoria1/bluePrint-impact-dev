@@ -20,7 +20,7 @@ get_header();
 </section> -->
 <section class="container mt-3 mt-md-5 mb-3 mb-md-5">
     <div class="row">
-        <div class="col-12 text-center">
+        <div class="col-12 text-left">
             <p>Les évolutions de l’engagement des entreprises s’accompagnent de propositions locales et mondiales afin de fournir un cadre de référence, règlementaire ou de principes, commun à l’ensemble des organisations.</p>
             <p> Ces propositions peuvent prendre la forme de labels, normes ou certifications.</p>
             Il existe une cinquantaine de labels autour de la RSE. Cet écosystème de référentiels se caractérise parfois par un manque de transparence et de lisibilité pour l’entrepreneur.e qui s’y intéresse.</p>
@@ -48,7 +48,7 @@ get_header();
                 <p>
                     Le processus de certification s’appuie sur les réponses et preuves apportées par l’entreprise candidate au BIA (B Impact Assessment). Le BIA présente plus de 200 questions pour mesurer 5 domaines d’impact : Gouvernance, Collaborateurs, Collectivité, Environnement et Clients. </p>
                 <p>B Corp est un label RSE généraliste, porté par une ONG. Le BIA est aujourd’hui le seul questionnaire 100% transparent : accessible gratuitement et directement en ligne pour toutes les entreprises.</p>
-                <p class="text-center">Plus d’information : <a href="https://bcorporation.eu/about-b-lab/country-partner/france" target="_blank"> France | Certified B Corporation</a>
+                <p class="text-left">Plus d’information : <a href="https://bcorporation.eu/about-b-lab/country-partner/france" target="_blank"> France | Certified B Corporation</a>
                 </p>
             </div>
         </div>

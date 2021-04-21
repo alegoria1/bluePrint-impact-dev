@@ -5,9 +5,9 @@ get_header();
 <div class="position-relative d-block d-md-flex align-items-center mh-80 overflow-hidden p-3 p-md-5 m-0 text-center text-md-left bg-gradient-light">
     <div class="col-md-6 p-lg-5 my-5">
         <h1 class="display-4 font-weight-bold mt-2 mt-md-4 wow animate__animated animate__bounceInLeft">Activateur d’impact.</h1>
-        <h2 class="h3 font-weight-bold mt-2 mt-md-3 wow animate__animated animate__bounceInLeft">Accélérateur de développement.</h2>
+        <h2 class="h2 font-weight-bold mt-2 mt-md-3 wow animate__animated animate__bounceInLeft">Accélérateur de développement.</h2>
         <p class="lead font-weight-normal wow animate__animated animate__slideInUp">blueprint IMPACT existe pour vous aider à rep(a)nser votre activité autour de la réconciliation du triptyque de l’économique, du social et de l’environnemental. </p>
-        <a class="btn btn-secondary hover-filled-slide-right mb-2 mb-md-4 wow animate__animated animate__slideInUp" href="#">En savoir plus</a>
+        <a class="btn btn-secondary hover-filled-slide-right mb-2 mb-md-4 wow animate__animated animate__slideInUp" href="#readmore-bpimpact">En savoir plus</a>
     </div>
     <div class="img-hand-2 d-none d-md-block wow animate__animated animate__fadeInRightBig">
         <img src="<?php echo get_template_directory_uri();  ?>/assets/img/mains-ensemble.png" alt="" class="shadow-none">
@@ -19,10 +19,10 @@ get_header();
     <h2 class="text-uppercase text-white wow animate__animated animate__rotateInUpLeft">“ Il n’est pas d’entreprise qui gagne, dans un monde qui perd. ”</h2>
     <div class="separator mb-5"></div>
 </section>
-<section class="container mt-3 mt-md-5 mb-3 mb-md-5">
+<section class="container mt-3 mt-md-5 mb-3 mb-md-5" id="readmore-bpimpact">
     <div class="row d-block d-md-flex align-items-center">
         <div class="col-12 col-md-7 order-1 order-md-0 text-justify  wow animate__animated animate__fadeInLeft">
-            <h3 class="pb-2">Chez blueprint Impact</h3>
+            <h3 class="pb-2">@ blueprint Impact</h3>
             <p>Nous sommes convaincu·e·s qu’un développement performant et pérenne passe par la réconciliation du triptyque de l’<b>économique</b>, du <b>social</b> et de l’<b>environnemental</b>.</p>
             <p>
                 Nous croyons au pouvoir des entreprises à <b>agir</b> sur les grands enjeux du XXIème siècle.</p>
@@ -39,7 +39,7 @@ get_header();
             </p>
         </div>
         <div class="col-12 col-md-5 order-0 order-md-1 wow animate__animated animate__fadeInRight">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_Home_1.png" alt="">
+            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_Home_2.jpg" alt="">
         </div>
     </div>
     <hr class="mt-5">
