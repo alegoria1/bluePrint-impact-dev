@@ -54,7 +54,7 @@ get_header();
                                         <article class="card-text text-justify" id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?>>
                                             <?php the_excerpt(); ?>
                                         </article>
-                                        <a href="<?php echo the_permalink() ?>" class="btn btn-primary">Voir plus</a>
+                                        <a href="<?php echo the_permalink() ?>" class="btn btn-primary mb-2 mb-md-4 p-2">Voir plus</a>
 
                                     </div>
 

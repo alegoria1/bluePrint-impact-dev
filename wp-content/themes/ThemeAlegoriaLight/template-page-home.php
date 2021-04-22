@@ -22,7 +22,7 @@ get_header();
 <section class="container mt-3 mt-md-5 mb-3 mb-md-5" id="readmore-bpimpact">
     <div class="row d-block d-md-flex align-items-center">
         <div class="col-12 col-md-7 order-1 order-md-0 text-justify  wow animate__animated animate__fadeInLeft">
-            <h3 class="pb-2">@ blueprint Impact</h3>
+            <h3 class="pb-2">@blueprint IMPACT</h3>
             <p>Nous sommes convaincu·e·s qu’un développement performant et pérenne passe par la réconciliation du triptyque de l’<b>économique</b>, du <b>social</b> et de l’<b>environnemental</b>.</p>
             <p>
                 Nous croyons au pouvoir des entreprises à <b>agir</b> sur les grands enjeux du XXIème siècle.</p>
@@ -39,7 +39,7 @@ get_header();
             </p>
         </div>
         <div class="col-12 col-md-5 order-0 order-md-1 wow animate__animated animate__fadeInRight">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_home_2.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_home_1.png" alt="">
         </div>
     </div>
     <hr class="mt-5">
@@ -109,7 +109,7 @@ get_header();
             </p>
         </div>
         <div class="col-12 col-md-5 order-0 order-md-1 wow animate__animated animate__fadeInRight">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_home_1.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_home_2.jpg" alt="">
         </div>
     </div>
     <div class="row mt-5 d-block d-md-flex align-items-center">

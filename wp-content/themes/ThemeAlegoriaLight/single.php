@@ -11,8 +11,8 @@ get_header();
 get_template_part('template-parts/subheader/subheader');
 ?>
 
-<div class="container">
-    <h1 class="text-uppercase animated zoomInDown"><?php wp_title(); ?></h1>
+<div class="container p-5">
+    <h1 class="text-uppercase text-center mb-5"><?php the_title(); ?></h1>
     <div class="row">
         <div class=<?php echo is_active_sidebar('sidebar-article') ? 'col-md-8' : '' ?>>
             <div class="entry">

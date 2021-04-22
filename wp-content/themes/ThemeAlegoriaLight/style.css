@@ -79,6 +79,12 @@ body{
 
 .btn-primary {
     background-color: #323291!important;
+    border-radius: 0;
+    border: none;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: #3b46dd!important;
 }
 
 .btn-secondary {
@@ -101,7 +107,9 @@ body{
 /**
 *BUTTONS
 **/
-
+.btn-primary:not(:disabled):not(.disabled):active:focus{
+    box-shadow: none!important;
+}
 .btn::before, .btn::after {
     position: absolute;
     content: "";

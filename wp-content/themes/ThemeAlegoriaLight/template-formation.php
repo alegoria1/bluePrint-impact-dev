@@ -71,6 +71,7 @@ get_header();
                 <h3>La Responsabilité sociale et environnementale (RSE) – Fondamentaux</h3>
                 <p>Comprendre et s’approprier les fondamentaux de la RSE afin de poser les bases d’une démarche adaptée et efficace.
                 </p>
+                <button class="btn btn-primary mb-2 mb-md-4 p-2" data-toggle="modal" data-target="#Modal-RSE">En savoir plus</button>
             </div>
         </div>
         <div class="row d-block d-md-flex align-items-center mt-5">
@@ -81,6 +82,7 @@ get_header();
                 <h3>Mettre en place une démarche de Responsabilité sociale et environnementale (RSE) étape par étape</h3>
                 <p>Comprendre chacune des étapes à mettre en œuvre pour une démarche RSE réussie. Identifier les outils et labels auxquels se référer pour chaque étape.
                 </p>
+                <button class="btn btn-primary mb-2 mb-md-4 p-2" data-toggle="modal" data-target="#Modal-RSE-2">En savoir plus</button>
             </div>
         </div>
         <div class="row d-block d-md-flex align-items-center mt-5">
@@ -96,5 +98,91 @@ get_header();
     </div>
 </section>
 
+<!-- Modal -->
+<div class="modal fade" id="Modal-RSE" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">La Responsabilité sociale et environnementale (RSE) : Fondamentaux</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5 class="text-center mt-2 mb-4">Descriptif & objectifs de la formation</h5>
+                            <p class="textcenter text-md-left">
+                                Une organisation quelle qu’elle soit ne peut se développer de façon pérenne dans un environnement interne ou externe dégradé.
+                            </p>
+                            <p class="textcenter text-md-left">
+
+                                Les entreprises sont des acteurs incontournables du développement durable dont les principes appliqués à l’entreprise, la RSE, agissent comme un levier d’efficacité puissant. </p>
+                            <p class="textcenter text-md-left">
+                                Comprendre les fondements et les enjeux du développement durable et de la RSE est un prérequis indispensable à toute démarche structurée et efficace. </p>
+                            <p class="textcenter text-md-left">
+                                Dans cette formation, un équilibre entre apports théoriques et exemples concrets permet au participant de s’approprier enjeux, notions théoriques, cadre légal et référentiels clés. </p>
+                            <p class="textcenter text-md-left">
+                                Cette formation intègre également une présentation synthétique des étapes clés de mise en œuvre d’une démarche RSE au sein d’une entreprise. </p>
+                            <p class="textcenter text-md-left">
+                                Ce module s’adresse aux responsables ou collaborateurs désireux de clarifier leur compréhension de la RSE avec un angle opérationnel. Aucun prérequis n’est nécessaire.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="Modal-RSE-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Mettre en place une démarche de responsabilité sociale et environnementale (RSE) étape par étape</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5 class="text-center mt-2 mb-4">Descriptif détaillé</h5>
+                            <p class="textcenter text-md-left">
+                                En matière de RSE les initiatives au sein des organisations existent mais ne sont pas toujours structurée au sein d’une démarche inclusive et cohérente avec l’activité de l’entreprise, garante de leur efficacité.
+                            </p>
+                            <p class="textcenter text-md-left">
+                                La mise en oeuvre d’une démarche RSE requiert : <br>
+                            </p>
+                            <ul>
+                                <li>une connaissance des référentiels et cadres existants,</li>
+                                <li>de la méthode afin de mettre en place une démarche structurée, opérationnelle et pilotée.</li>
+                            </ul>
+                            <p class="textcenter text-md-left">
+                                Du diagnostic initial à la communication des résultats de la démarche, c’est un véritable projet de transformation que poursuit l’entreprise.
+                            </p>
+                            <p class="textcenter text-md-left">
+                                Après un retour sur les notions fondamentales du développement durable et de la RSE, cette formation propose aux participants de détailler chacune des étapes de la mise en œuvre d’une démarche de RSE : diagnostic, priorisation des enjeux, cadre budgétaire, formalisation des engagements, pilotage, gouvernance, évaluation et communication.
+                            </p>
+                            <p class="textcenter text-md-left">
+                                A l’issue de cette formation, les participants connaissent et comprennent chacune des étapes à mettre en œuvre et savent identifier les outils et labels auxquels se référer pour chaque étape.
+                            </p>
+                            <p class="textcenter text-md-left font-italic">
+                                Ce module s’adresse aux responsables et collaborateurs destinés à construire et piloter des projets de stratégie RSE ou désireux de comprendre les étapes afin d’évaluer l’opportunité de mettre en place une telle démarche. Aucun prérequis n’est nécessaire. la connaissance des concepts fondamentaux du développement durable peut néanmoins être utile pour une appropriation optimale des principes & outils présentés.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php get_footer(); ?>

@@ -13,24 +13,6 @@
         <?php
         } ?>
     </div>
-    <!-- Mask & flexbox options-->
-    <div class="mask rgba-black-light d-block d-md-flex align-items-center">
-        <!-- Content -->
-        <div class="container px-md-3 px-sm-0">
-            <!--Grid row-->
-            <div class="row wow fadeIn">
-                <!--Grid column-->
-                <div class="col-md-12 mb-4 text-center wow fadeIn">
-                    <?php
-                    get_template_part('template-parts/navigation/nav-1');
-                    ?>
-                </div>
-                <!--Grid column-->
-            </div>
-            <!--Grid row-->
-        </div>
-        <!-- Content -->
-    </div>
-    <!-- Mask & flexbox options-->
+    
 </div>
 <!-- Full Page Intro -->
