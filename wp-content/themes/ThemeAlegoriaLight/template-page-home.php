@@ -113,17 +113,17 @@ get_header();
         </div>
     </div>
     <div class="row mt-5 d-block d-md-flex align-items-center">
-        <div class="col-12 col-md-1"></div>
+        <div class="col-12 col-md-2"></div>
         <div class="col-12 col-md-2">
             <a href="https://maichau.fr/" target="_blank">
                 <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logos/logo_maichau.png" alt="" class="d-block mx-auto img-fluid">
             </a>
         </div>
-        <div class="col-12 col-md-2">
+        <!-- <div class="col-12 col-md-2">
             <a href="https://www.ecores.eu/project/reduire-les-emissions-des-co2/" target="_blank">
-                <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logos/logo_ecores.jpg" alt="" class="d-block mx-auto img-fluid">
+                <img src="<?php //echo get_template_directory_uri();  ?>/assets/img/logos/logo_ecores.jpg" alt="" class="d-block mx-auto img-fluid">
             </a>
-        </div>
+        </div> -->
         <div class="col-12 col-md-2">
             <a href="https://diag26000.net/" target="_blank">
                 <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logos/logo-diag.png" alt="" class="d-block mx-auto img-fluid">
@@ -139,7 +139,7 @@ get_header();
                 <img src="<?php echo get_template_directory_uri();  ?>/assets/img/logos/logo-ksapa.jpg" alt="" class="d-block mx-auto img-fluid w-50">
             </a>
         </div>
-        <div class="col-12 col-md-1"></div>
+        <div class="col-12 col-md-2"></div>
     </div>
 </section>
 <section class="container-fluid bg-light p-5">
