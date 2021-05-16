@@ -2,7 +2,7 @@
     <section class="container-fluid p-5">
         <h4 class="text-center pb-3">Témoignages</h4>
         <div class="row">
-            <div class="col-6 col-md-3">
+            <div class="col-12 col-md-3">
                 <div class="media">
                     <i class="fas fa-quote-left fa-2x p-3"></i>
                     <div class="media-body">
@@ -11,7 +11,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-12 col-md-3">
                 <div class="media">
                     <i class="fas fa-quote-left fa-2x p-3"></i>
                     <div class="media-body">
@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-12 col-md-3">
                 <div class="media">
                     <i class="fas fa-quote-left fa-2x p-3"></i>
                     <div class="media-body">
@@ -31,7 +31,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-12 col-md-3">
                 <div class="media">
                     <i class="fas fa-quote-left fa-2x p-3"></i>
                     <div class="media-body">
@@ -49,7 +49,7 @@
                 <div class="col-12 col-md-3">
                     <img src="<?= get_theme_mod('logo_settings'); ?>" class="img-fluid" />
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="col-12 col-md-3">
                     <h3 class="pb-3">Contact</h3>
                     <p>
                         Sophie Laxenaire<br>
@@ -57,7 +57,7 @@
                     </p>
                     <p><i class="fab fa-linkedin-in"></i></p>
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="col-12 col-md-3">
                     <h3 class="pb-3">Plan du site</h3>
                     <div class="footer-menu-list">
                         <?php wp_nav_menu([
@@ -67,7 +67,7 @@
                         ]) ?>
                     </div>
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="col-12 col-md-3">
                     <a href="https://ecoindex.fr" target="_blank"> <img src="<?php echo get_template_directory_uri();  ?>/assets/img/ecoindex.svg" class="d-block mx-auto" style="max-width:45px;"></a>
                     <p class="text-center small font-italic mt-2">EcoIndex : Résultat de la performance environnementale</p>
                 </div>
