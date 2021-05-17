@@ -109,7 +109,7 @@ get_header();
             </p>
         </div>
         <div class="col-12 col-md-5 order-0 order-md-1 wow animate__animated animate__fadeInRight">
-            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_home_2.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri();  ?>/assets/img/IMG_home_2.jpg" alt="" class=" img-fluid">
         </div>
     </div>
     <div class="row mt-5 d-block d-md-flex align-items-center">
