@@ -152,6 +152,11 @@ html, body{
         max-height: 50px;
         width: 70%;
     }
+    .custom-logo img{
+        float:left;
+        display:block;
+        position: relative;
+    }
     .wp-block-image img {
         max-width: 100%;
         height: auto!important;
