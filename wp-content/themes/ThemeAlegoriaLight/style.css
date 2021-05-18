@@ -149,14 +149,13 @@ html, body{
         display:block;
     }
     .custom-logo {
-        max-height: 50px;
-        width: 70%;
-    }
-    .custom-logo img{
+        max-height: auto;
+        width: 60%;
         float:left;
         display:block;
         position: relative;
     }
+   
     .wp-block-image img {
         max-width: 100%;
         height: auto!important;
