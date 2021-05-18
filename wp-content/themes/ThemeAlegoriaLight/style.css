@@ -145,4 +145,15 @@ html, body{
     .mh-80 {
         min-height: auto;
     }
+    .navbar{
+        display:block;
+    }
+    .custom-logo {
+        max-height: 50px;
+        width: 70%;
+    }
+    .wp-block-image img {
+        max-width: 100%;
+        height: auto!important;
+    }
 }
